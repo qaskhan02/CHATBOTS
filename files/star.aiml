@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<category>
+	    <pattern>WHO IS *</pattern>
+	    <template>You have to goggle about <star> index = "1". </star></template>
+	</category>
+	<category>
+	    <pattern>YOU KNOW *</pattern>
+	    <template>Yes i now about <star> index = "1"</star></template>
+	</category>
+</aiml>

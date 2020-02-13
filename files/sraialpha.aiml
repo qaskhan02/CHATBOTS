@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <category>
+        <pattern>BYE</pattern>
+        <template>GOOD BYE!</template>
+    </category>
+    <category>
+        <pattern>BYE DOD!</pattern>
+        <template>GOOD BYW BUDDY!</template>
+    </category>
+    
+    <category>
+        <pattern>* NAME</pattern>
+        <template>
+            <srai>NAME OF <star> index = "1"</star></srai>
+        </template>
+    </category>
+</aiml>
